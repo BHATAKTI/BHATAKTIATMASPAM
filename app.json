@@ -1,7 +1,7 @@
 {
   "name": " BHATAKTI ATMA SPAM BOT",
   "description": "A POWERFULL AND FAST SPAM BOT.",
-  "logo": "https://telegra.ph/file/b608630928c5b1543ab20.jpg",
+  "logo": "https://telegra.ph/file/d59bac537e68acb4427cb.jpg",
   "keywords": [
     "spambot",
     "telegram",
@@ -134,12 +134,12 @@
         "required": false
       },
       "API_ID": {
-        "description": "Telethon String Session",
+        "description": "My telegram.org",
         "value": "",
         "required": true
       },
       "API_HASH": {
-        "description": "Api Hash",
+        "description": "my telegram.org",
         "value": "",
         "required": true
       },
