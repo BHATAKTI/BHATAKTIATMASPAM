@@ -835,7 +835,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(functions.channels.JoinChannelRequest(channel=bc))
-                await event.edit("Succesfull Joined")
+                await event.edit("𝙬𝙖𝙞𝙩⚠️𝙢𝙖𝙞 𝙩𝙤 𝙜𝙝𝙪𝙨 ☠️𝙜𝙮𝙖 ")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -879,7 +879,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(ImportChatInviteRequest(bc))
-                await event.edit("Succesfully Joined")
+                await event.edit("𝙈𝘼𝙄🤖 𝙏𝙊 𝙂𝙔𝘼 𝘼𝙉𝘿𝙀𝙍☠️")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -922,7 +922,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await event.client(LeaveChannelRequest(bc))
-                await event.edit("Succesfully Left")
+                await event.edit("𝘾𝙃𝙐𝙏𝙄𝙔𝘼𝙋𝘼🙀 𝙃 𝙔𝙃𝘼 𝙎𝘼𝘽✨ 𝙈𝘼𝙄 𝙏𝙊 𝘾𝙃𝙇𝘼 𝘽𝙔𝙀👿")
             except Exception as e:
                 await event.edit(str(e))   
         else:
